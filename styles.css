@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color:rgb(27, 27, 112);
+}
+#title{
+  font-family:cursive;
+  font-size:45px;
+  color:white;
+}
+.one {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+.btn {
+  display: inline-block;
+  margin: 17px;
+  height: 200px;
+  width: 200px;
+  border: 7px solid black;
+  border-radius: 25%;
+}
+.game-over {
+  background-color:rgb(27, 27, 112);
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.pressed {
+  background-color:white;
+  box-shadow:white;
+}
+.dissapear {
+  filter: brightness(100%);
+  box-shadow: 0 0 45px white;
+}
